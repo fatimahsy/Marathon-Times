@@ -6,7 +6,7 @@
 # License: MIT
 # Pre-requisites: [...UPDATE THIS...]
 # Any other information needed? [...UPDATE THIS...]
-```{r}
+
 #### Workspace setup ####
 library(tidyverse)
 library(rstanarm)
@@ -32,5 +32,5 @@ saveRDS(
   first_model,
   file = "/Users/fatimahy/Desktop/Marathon Times/models/first_model.rds"
 )
-```
+
 
