@@ -1,19 +1,18 @@
 #### Preamble ####
-# Purpose: Models... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Models flying time. 
+# Author: Fatimah 
+# Date: 27 Feb 2024
+# Contact:
 # License: MIT
 # Pre-requisites: [...UPDATE THIS...]
 # Any other information needed? [...UPDATE THIS...]
-
-
+```{r}
 #### Workspace setup ####
 library(tidyverse)
 library(rstanarm)
 
 #### Read data ####
-analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
+analysis_data <- read_csv("/Users/fatimahy/Desktop/Marathon Times/data/analysis_data/analysis_data.csv")
 
 ### Model data ####
 first_model <-
@@ -31,7 +30,7 @@ first_model <-
 #### Save model ####
 saveRDS(
   first_model,
-  file = "models/first_model.rds"
+  file = "/Users/fatimahy/Desktop/Marathon Times/models/first_model.rds"
 )
-
+```
 
